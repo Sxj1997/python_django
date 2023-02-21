@@ -4,9 +4,6 @@ from django.core.exceptions import ObjectDoesNotExist, ValidationError
 from django.contrib import auth as django_auth
 import base64, time
 import hashlib
-from django.http import HttpResponse
-#from Crypto.Cipher import AES    # 请安装 Crypto
-import json
 
 
 """
